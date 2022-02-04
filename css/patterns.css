@@ -1,0 +1,61 @@
+h1 {
+  font-size: 4.8rem;
+  color: var(--gray-colors-100);
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+h3.black {
+  color: var(--gray-colors-100);
+}
+
+h1,
+h2,
+h3,
+h3.back {
+  font-size: "Sora", sans-serif;
+  font-weight: 600;
+  line-height: 125%;
+  text-align: center;
+  letter-spacing: -1px;
+}
+
+h2,
+h3 {
+  color: var(--white);
+}
+
+h3,
+h3.black {
+  font-size: 2.4rem;
+}
+
+.btn-primary {
+  font-family: "Sora", sans-serif;
+  background-color: var(--brand-colors-pink);
+  padding: 1.2rem 3.4rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--brand-colors-100);
+  border-radius: 5px;
+  border: 1px solid var(--brand-colors-pink);
+}
+
+.btn-primary:hover {
+  background-color: var(--white);
+  color: var(--brand-colors-pink);
+  border: 1px solid var(--brand-colors-pink);
+}
+
+.menu-item {
+  display: inline-block;
+  font-family: "Sora", sans-serif;
+  background-color: var(--brand-colors-200);
+  font-size: 1.5rem;
+  line-height: 105%;
+  letter-spacing: -0.01em;
+  padding: 1.2rem 2.4rem;
+  color: var(--gray-colors-400);
+}

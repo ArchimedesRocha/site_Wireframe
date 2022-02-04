@@ -1,0 +1,62 @@
+a[href="#top"] {
+  padding: 10px;
+  position: fixed;
+  top: 90%;
+  right: 40px;
+  display: none;
+  font-size: 30px;
+}
+a[href="#top"]:hover {
+  text-decoration: none;
+}
+
+/* 1920 x 1024 */
+@media (max-width: 1920) {
+}
+
+/* 1440 x 1024 */
+@media (max-width: 1440px) {
+  a[href="#top"] {
+    right: -5px;
+  }
+  a[href="#top"] img {
+    width: 4rem !important;
+    height: 4rem !important;
+  }
+}
+
+/* 1366 x 1024 */
+@media (max-width: 1366px) {
+}
+
+/* 1280 x 1024 */
+@media (max-width: 1280px) {
+}
+
+/* 1150 x 1200 */
+@media (max-width: 1150px) {
+}
+
+/* 991 x 1200 */
+@media (max-width: 991px) {
+}
+
+/* 600 x 800 */
+@media (max-width: 600px) {
+}
+
+/* 500 x 800 */
+@media (max-width: 500px) {
+}
+
+/* 420 x 1000 */
+@media (max-width: 420px) {
+}
+
+/* 375 x 1000 */
+@media (max-width: 375px) {
+}
+
+/* 325 x 1000 */
+@media (max-width: 325px) {
+}

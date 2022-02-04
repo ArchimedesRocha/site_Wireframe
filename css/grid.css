@@ -1,0 +1,9 @@
+.container {
+  width: 100%;
+  /* O max-width padrão do layout é 1216px somado com 30px do padding = 1246px */
+  max-width: 1246px;
+  margin: 0 auto;
+
+  /* Somar este padding ao max-width */
+  padding: 0 1.5rem;
+}
